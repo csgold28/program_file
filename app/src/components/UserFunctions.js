@@ -10,6 +10,7 @@ export const register = newUser => {
     })
     .then(response => {
       console.log('Pendaftaran Berhasil!')
+      return response
     })
 }
 
